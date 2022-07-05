@@ -31,7 +31,6 @@ h1{
 .main-box{
     border: 2px solid black;
     height: 100vh;
-    max-width: 600px;
     margin: 0 auto;
     background-color: darkred;
 }
