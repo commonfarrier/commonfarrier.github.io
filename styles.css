@@ -1,0 +1,94 @@
+html{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+
+h1{
+    color: darkgoldenrod;
+}
+
+.display-block{
+    display: block;
+}
+
+.church-info{
+    font-size: 0.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Main area */
+
+.main-box{
+    border: 2px solid black;
+    height: 350px;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 0 auto;
+    background-color: darkred;
+}
+
+/* Header */
+header{
+    text-align: center;
+}
+
+.bold{
+    font-weight: 300;
+}
+
+/* Form for Number Selection*/
+
+#song-form{
+    text-align: center;
+    margin-bottom: 0;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form > h3{
+    text-align: center;
+    font-weight: 500;
+}
+
+label[for="song-number"]{
+    color: darkg;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: 400;
+}
+
+#select-button{
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-top: 8px;
+    border: none;
+    border-radius: 30px;
+    color: black;
+}
+
+.selector-box{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* Divider*/
+.divider{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+main{
+    margin: 0 auto;
+}
