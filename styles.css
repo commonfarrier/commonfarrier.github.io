@@ -12,6 +12,10 @@ h1{
     color: darkgoldenrod;
 }
 
+body{
+    margin: 0;
+}
+
 .display-block{
     display: block;
 }
