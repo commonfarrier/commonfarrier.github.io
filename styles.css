@@ -5,7 +5,6 @@
 
 body{
     margin: 0;
-    border: 8px solid rgb(84, 5, 5);
     border-radius: 4px;
     height: 100vh;
     background-color: darkred;
@@ -20,6 +19,12 @@ h1{
 h3{
     text-align: center;
    font-family: 'Times New Roman', Times, serif; 
+}
+
+.divider{
+    height: 2px;
+    width: 100%;
+    background-color: black;
 }
 
 .display-block{
