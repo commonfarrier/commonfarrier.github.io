@@ -8,30 +8,28 @@
     <title>OAC Hymn Book</title>
 </head>
 <body>
-    <div class="main-box">
+    <div class="container">
         <header>
             <h1>SING <span class="display-block"></span>EMMANUEL</span></h1>
         </header>
         <div class="divider"></div>
         <main>
-            <form method="post" id="song-form">
-                <h3>Welcome OAC Member</h3>
-                <div class="selector-box">
-                    <label class="bold" for="song-number">Song Number:</label>
-                    <input type="number" id="song-number" placeholder="eg... 3" min="1" max="306"/>
-                    <button type="submit" id="select-button">Submit</button>
-                </div>
-            </form>
-        </main>
-    
-
-        <footer>
-            <div class="church-info">
-                <p>The Old Apostolic Church of Africa</p>
-                <p>Die Ou Apostoliese Kerk van Afrika</p>
-                <p>1994</p>
+            <div class="box">
+                <section class="form-area">
+                    <form method="/" id="song-form">
+                        <h3>Welcome OAC Member</h3>
+                        <div class="selector-box">
+                            <label class="bold" for="song-number">Song Number:</label>
+                            <input type="number" id="song-number" placeholder="eg... 3" min="1" max="306"/>
+                            <button type="submit" id="select-button">Submit</button>
+                        </div>
+                        <div class="church-info">
+                            <p>The Old Apostolic Church. Die Ou Apostoliese Kerk</p>
+                        </div>
+                    </form>  
+                </section>
             </div>
-        </footer>
+        </main>
     </div>
 </body>
 </html>
