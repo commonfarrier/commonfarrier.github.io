@@ -81,3 +81,17 @@ input, button{
     }
     
 }
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 8rem;
+    }
+
+    h3{
+        font-size: 4rem;
+    }
+
+    label{
+        font-size: 3.7rem;
+    }
+}
