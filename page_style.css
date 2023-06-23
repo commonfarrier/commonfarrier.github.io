@@ -7,18 +7,17 @@
     max-width: 500px;
     min-width: 250px;
     margin: 40px auto;
-    background-color: white;
 }
 
 nav a{
     text-decoration: none;
-    font-size: large;
-    font-weight: 600;
+    font-size: medium;
+    font-weight: 200;
     color: black;
 }
 
 body{
-    background-color: darkred;
+    background-color: rgb(255, 243, 243);
     margin: 0;
 }
 
@@ -37,7 +36,7 @@ header{
 
 h1{
     flex: 1;
-    color: goldenrod;
+    color: darkred;
 }
 
 form{
