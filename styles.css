@@ -4,131 +4,75 @@
 
 body{
     margin: 0;
-    border-radius: 4px;
-    height: 100vh;
-    background-color: darkred;
+}
+
+header{
+    background-color: maroon;
+    max-width: 600px;
+    min-width: 300px;
+    display: flex;
+    padding-left: 10px;
+    border-bottom: 2px solid black;
 }
 
 h1{
-    text-align: center;
-    font-weight: 400;
-    color: goldenrod;
+    color: darkgoldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
 }
 
 h3{
     text-align: center;
-   font-family: 'Times New Roman', Times, serif; 
-   font-weight: 100;
 }
 
-.divider{
-    height: 2px;
-    width: 100%;
-    background-color: black;
+#song-number{
+    margin-left: 0px;
+    margin-right: 5px;
+    width: 8rem;   
 }
 
-.display-block{
-    display: block;
+#select-button{
+    border: 1.6px solid maroon;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+.container{
+    max-width: 600px;
+    min-width: 300px;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+#number-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#number-container p{
+    text-align: justify;
+    line-height: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.input-number{
+    display: flex;
+}
+
+.selector-box{
+    display: flex;
+    justify-content: center;
+}
+
+.church-info p{
+    text-align: center;
 }
 
 .hidden{
     display: none;
 }
 
-.form-area{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 80%;
-    height: 400px;
-    max-width: 600px;
-    font-family: 'Times New Roman', Times, serif; 
-}
-
-.church-info{
-    font-size: 10px;
-    text-align: center;
-    font-style: italic;
-    font-weight: 800;
-    font-family: 'Times New Roman', Times, serif; 
-}
-
-.selector-box{
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
-
-label{
-    text-align: center;
-}
-
-input, button{
-    padding: 5px;
-    margin: 6px auto;
-    width: 70%;
-    border-radius: 5px;
-    border: 4px darkred solid;
-}
-
-/* .container{
-    min-width: 300px;
-    max-width: 600px;
-    margin: 0 auto;
-    height: 100px;
-} */
-
-@media (max-width: 600px) {
-    h1{
-        font-size: 4rem;
-    }
-
-    h3{
-        font-size: 1.8rem;
-    }
-
-    label{
-        font-size: 1.4rem;
-    }
-    
-}
-
-@media (max-width: 400px) {
-    h1{
-        font-size: 3rem;
-    }
-
-    h3{
-        font-size: 2.2rem;
-        margin-top: 20%;
-    }
-
-    label{
-        font-size: 1rem;
-    }
-
-    input, button{
-        margin-top: 20px;
-    }
-
-}
-
-@media (max-width: 300px) {
-    h1{
-        font-size: 2.5rem;
-    }
-
-    h3{
-        font-size: 1.8rem;
-        margin-top: 20%;
-    }
-
-    label{
-        font-size: 1.6rem;
-    }
-
-    input, button{
-        margin-top: 15px;
-    }
-
+.divider{
+    border: 1px grey solid;
 }
